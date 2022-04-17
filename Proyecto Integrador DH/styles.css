@@ -316,6 +316,7 @@ body{
 
 
 .cajaJustin{
+
     width: 100%;
     height: 100%;
     display: flex;
@@ -381,7 +382,20 @@ body{
 }
 
 
+.cajaDetalleCancion{
+    padding-right: 278px;
+    padding-top: 115px;
+    padding-left: 100px;
+}
 
+.cajaDetalleCancionHija{
+    padding-bottom: 20px;
+}
+
+.spotifyPerfil{
+    border-radius: 12px;
+    width: 458px;
+}
    
     
 
