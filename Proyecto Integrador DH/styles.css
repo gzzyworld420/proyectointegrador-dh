@@ -397,3 +397,16 @@ body{
     width: 458px;
 }
 
+.tituloDetalleCancion{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+
+.subtituloDetalleCancion{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+
+
