@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="img/WhatsApp Image 2022-04-17 at 9.57.36 PM (1).jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Detalle Cancion</title>
 </head>
 
 <body>
     
     <div class="container">
 
-        <!--ASIDE-->
         <aside>
             <div class="menu">
-                <a class="active" href="#"><span><img src="img/home.svg" alt=""></span>Inicio</a>
-                <a href="#"><span><img src="img/search.svg" alt=""></span>Buscar</a>
-                <a href="#"><span><img src="img/library.svg" alt=""></span>Tu biblioteca</a> <br>
-                <a href="#"><span><img src="img/add.svg" alt=""></span>Crear lista</a>
-                <a href="#"><span><img src="img/heart.svg" alt=""></span>Canciones que te gustan</a>
+                <a class="active" href="index.html"><span><img src="img/home.svg" alt="icono home"></span>Inicio</a>
+                <a href="./search-results.html"><span><img src="img/search.svg" alt="icono buscar"></span>Buscar</a>
+                <a href="./detail-album.html"><span><img src="img/record-vinyl-solid.svg" alt="icono records" class="imgAside"></span>Albums</a>
+                <a href="./detail-artist.html"><span><img src="img/person-solid.svg" alt="icono artista" class="imgAside"></span>Artistas</a>
+                <a href="./detail-genres.html"><span><img src="img/sliders-solid.svg" alt="icono slider" class="imgAside"></span>Generos</a>
+                <a href="./detail-songs.html"><span><img src="img/heart.svg" alt="icono me gusta"></span>Canciones que te gustan</a>
+                <img src="./img/WhatsApp Image 2022-04-17 at 9.57.36 PM (1).jpeg" alt="logo global music">
             </div>
-            </nav>
+            
         </aside>
 
         <section>
@@ -32,17 +35,24 @@
                     <span class="btn_prev"><img src="img/prev.svg" alt=""></span>
                     <span class="btn_next"><img src="img/next.svg" alt=""></span>
                 </div>
+                <div class="formbusqueda">
+                    <form action="search-results.html" method="get">
 
+                        <div class="divbusqueda">
+                            <input type="busqueda" name="busqueda" placeholder="Artists, songs or podcast">
+                            <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+
+                    </form>
+                </div>
                 <div class="suscribcion">
-                    <div class="mejora_cuenta">
-                        <button>MEJORAR TU CUENTA</button>
-                    </div>
                     <div class="perfil">
-                        <span class="circulo"><img src="img/user.svg" alt=""></span>
-                        <span class="nombre">Usuario</span>
-                        <span><img src="img/salir.svg" alt=""></span>
+                        <span class="circulo"><img src="img/gzzy.jpg" alt="imagen perfil" class="imgSuscripcion"></span>
+                        <span class="nombre">Gzzy</span>
+                        <span><img src="img/salir.svg" alt="icono salir"></span>
                     </div>
                 </div>
+
             </header>
 
 
@@ -61,6 +71,7 @@
                         <h4 class="tituloDetalleCancion"> <a href="./detalle-artista.html">Justin Bieber <span></span> </a> </h4>
                         <h4 class="tituloDetalleCancion2"> <a href="./detalle-album.html">Purpose</a></h4>
                         <h4 class="tituloDetalleCancion3"> <a href="./detalle-cancion.html">Love Yourself</a> </h4>
+                        <BR></BR>
                         <iframe style="border-radius:12px"
                         src="https://open.spotify.com/embed/track/50kpGaPAhYJ3sGmk6vplg0?utm_source=generator&theme=0"
                         width="50%" height="80" frameBorder="0" allowfullscreen=""
@@ -78,6 +89,7 @@
 
 
             <!--FOOTER-->
+
             <footer>
                 <div class="controles">
                     <img src="img/prev_footer.svg" alt="">
