@@ -328,6 +328,12 @@ body{
     
 }
 
+a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
 /*Detalle Cancion*/
 
 
@@ -339,7 +345,7 @@ body{
     font-size: 40px;
     color: white;
     text-decoration: none;
-    font-family: fantasy;
+    font-family: fantasy ;
 }
 
 .tituloDetalleCancion2{
