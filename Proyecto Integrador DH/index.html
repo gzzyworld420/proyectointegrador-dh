@@ -5,157 +5,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CUSTOM CSS-->
     <link rel="stylesheet" href="styles.css">
-    <title>Spotify</title>
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="img/WhatsApp Image 2022-04-17 at 9.57.36 PM (1).jpeg">
+     <!--FONTAWESOME-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Global Music</title>
 </head>
 
 <body>
+    <!--MAIN CONTAINER-->
     <div class="container">
+
+        <!--SIDE BAR-->
         <aside>
             <div class="menu">
-                <a class="active" href="#"><span><img src="img/home.svg" alt=""></span>Inicio</a>
-                <a href="#"><span><img src="img/search.svg" alt=""></span>Buscar</a>
-                <a href="#"><span><img src="img/library.svg" alt=""></span>Tu biblioteca</a> <br>
-                <a href="#"><span><img src="img/add.svg" alt=""></span>Crear lista</a>
-                <a href="#"><span><img src="img/heart.svg" alt=""></span>Canciones que te gustan</a>
+                <a class="active" href="index.html"><span><img src="img/home.svg" alt="icono home"></span>Inicio</a>
+                <a href="./search-results.html"><span><img src="img/search.svg" alt="icono buscar"></span>Buscar</a>
+                <a href="./detail-album.html"><span><img src="img/record-vinyl-solid.svg" alt="icono records" class="imgAside"></span>Albums</a>
+                <a href="./detail-artist.html"><span><img src="img/person-solid.svg" alt="icono artista" class="imgAside"></span>Artistas</a>
+                <a href="./detail-genres.html"><span><img src="img/sliders-solid.svg" alt="icono slider" class="imgAside"></span>Generos</a>
+                <a href="./detail-songs.html"><span><img src="img/heart.svg" alt="icono me gusta"></span>Canciones que te gustan</a>
+                <img src="./img/WhatsApp Image 2022-04-17 at 9.57.36 PM (1).jpeg" alt="logo global music">
             </div>
-            </nav>
+            
         </aside>
         <section>
+
+            <!--HEADER-->
             <header>
                 <div class="botones_prev_next">
                     <span class="btn_prev"><img src="img/prev.svg" alt=""></span>
                     <span class="btn_next"><img src="img/next.svg" alt=""></span>
                 </div>
+                <div class="formbusqueda">
+                    <form action="search-results.html" method="get">
 
-                <p>demo git</p>
+                        <div class="divbusqueda">
+                            <input type="busqueda" name="busqueda" placeholder="Artists, songs or podcast">
+                            <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
 
+                    </form>
+                </div>
                 <div class="suscribcion">
-                    <div class="mejora_cuenta">
-                        <button>MEJORAR TU CUENTA</button>
-                    </div>
                     <div class="perfil">
-                        <span class="circulo"><img src="img/user.svg" alt=""></span>
-                        <span class="nombre">Usuario</span>
-                        <span><img src="img/salir.svg" alt=""></span>
+                        <span class="circulo"><img src="img/gzzy.jpg" alt="imagen perfil" class="imgSuscripcion"></span>
+                        <span class="nombre">Gzzy</span>
+                        <span><img src="img/salir.svg" alt="icono salir"></span>
                     </div>
                 </div>
+
             </header>
+
+            <!--BANNER PRINCIPAL-->
             <div class="contenedor_degradado">
                 <div class="banner">
                     <div class="cancion">
                         <figure>
-                            <img src="img/person_01.png" alt="">
+                            <a href="./detail-artist.html"><img src="img/descarga (5).jpeg" alt=""></a>
+                            
                         </figure>
                     </div>
                     <div class="cancion">
                         <figure>
-                            <img src="img/person_02.png" alt="">
+                            <a href="./detail-artist.html"><img src="img/jay z.jpeg" alt=""></a>
                         </figure>
                     </div>
                     <div class="cancion">
                         <figure>
-                            <img src="img/person_03.png" alt="">
+                            <img src="img/rocky.webp" alt="">
                         </figure>
                     </div>
                     <div class="cancion">
                         <figure>
-                            <img src="img/person_04.png" alt="">
+                            <img src="img/shady.jpeg" alt="">
                         </figure>
                     </div>
                 </div>
             </div>
+
+            <!--CONTAINER ARTISTAS-->
             <div class="contenedor_contenido">
                 <div class="titulos">
-                    <h1>¡Buenos días!</h1>
+                    <h1>¡Escuchado recientemente!</h1>
                 </div>
                 <div class="generos">
                     <div class="cards">
-                        <div class="card_imagen"><img src="img/person_01.png" alt=""></div>
+                        <div class="card_imagen"><img src="img/duko.webp" alt=""></div>
                         <div class="card_text">
-                            <h4>Autor primero</h4>
-                            <img src="img/play.svg" alt="">
+                            <h4>Duki</h4>
+                            <audio src="audio/y2mate.com - DUKI Ysy A CRO  Hijo de la Noche Video Oficial.mp3" controls="controls"></audio>
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="card_imagen"><img src="img/person_02.png" alt=""></div>
+                        <div class="card_imagen"><img src="img/emilia.jpeg" alt=""></div>
                         <div class="card_text">
-                            <h4>Autor primero</h4>
-                            <img src="img/play.svg" alt="">
+                            <h4>Emilia Mernes</h4>
+                            <audio src="audio/y2mate.com - Emilia  CUATRO VEINTE Official Video.mp3" controls="controls"></audio>
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="card_imagen"><img src="img/person_03.png" alt=""></div>
+                        <div class="card_imagen"><img src="img/senfer.jpeg" alt=""></div>
                         <div class="card_text">
-                            <h4>Autor primero</h4>
-                            <img src="img/play.svg" alt="">
+                            <h4>C.R.O</h4>
+                            <audio src="audio/y2mate.com - BARDERO  DAMELO.mp3" controls="controls"></audio>
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="card_imagen"><img src="img/person_04.png" alt=""></div>
+                        <div class="card_imagen"><img src="img/rihanna-embarazada-top-verde-lentejuelas-fenty-elle-00-1644689803.jpeg" alt=""></div>
                         <div class="card_text">
-                            <h4>Autor primero</h4>
-                            <img src="img/play.svg" alt="">
+                            <h4>Rihanna</h4>
+                            <audio src="audio/y2mate.com - Rihanna  Diamonds.mp3" controls="controls"></audio>
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="card_imagen"><img src="img/person_01.png" alt=""></div>
+                        <div class="card_imagen"><img src="img/keo.jpeg" alt=""></div>
                         <div class="card_text">
-                            <h4>Autor primero</h4>
-                            <img src="img/play.svg" alt="">
+                            <h4>Kidd Keo</h4>  
+                            <audio src="audio/y2mate.com - Kidd Keo  MAMA Official Video.mp3" controls="controls"></audio>
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="card_imagen"><img src="img/person_02.png" alt=""></div>
+                        <div class="card_imagen"><img src="img/nicki.jpeg" alt=""></div>
                         <div class="card_text">
-                            <h4>Autor primero</h4>
-                            <img src="img/play.svg" alt="">
+                            <h4>Nicki Nicole</h4>
+                            <audio src="audio/y2mate.com - Los Ángeles Azules NICKI NICOLE  Otra Noche.mp3" controls="controls"></audio>
                         </div>
                     </div>
-                </div>
-                <div class="titulos">
-                    <h2>Programas para probar</h2>
-                    <span>Podcast que pensamos que te van a enganchar</span>
                 </div>
 
+                <!--SECTION ALBUMS-->
+                <div class="titulos">
+                    <h2>Top Albums</h2>
+                    <br>
+                    <span>¡Summer Hits!</span>
+                </div>
                 <div class="podcast">
                     <div class="card_podcast">
-                        <img src="img/person_01.png" alt="">
-                        <h4>Titulo</h4>
-                        <p>Podcast primero</p>
+                        <img src="img/ntvg.jpeg" alt="">
+                        <h4>No Te Va a Gustar</h4>
+                        <br>
+                        <p>Luz</p>
                     </div>
                     <div class="card_podcast">
-                        <img src="img/person_02.png" alt="">
-                        <h4>Titulo</h4>
-                        <p>Podcast primero</p>
+                        <img src="img/bob.jpeg" alt="">
+                        <h4>Bob Marley</h4>
+                        <br>
+                        <p>Island Records</p>
                     </div>
                     <div class="card_podcast">
-                        <img src="img/person_03.png" alt="">
-                        <h4>Titulo</h4>
-                        <p>Podcast primero</p>
+                        <img src="img/gaga.jpeg" alt="">
+                        <h4>Lady Gaga</h4>
+                        <br>
+                        <p>The Fame</p>
                     </div>
                     <div class="card_podcast">
-                        <img src="img/person_04.png" alt="">
-                        <h4>Titulo</h4>
-                        <p>Podcast primero</p>
+                        <img src="img/yanke.jpeg" alt="">
+                        <h4>Daddy Yankee</h4>
+                        <br>
+                        <p>Legendary</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!--FOOTER-->
         <footer>
             <div class="controles">
+                <a href="https://www.instagram.com/blossomdesigngroup/" target="blank"><img src="img/Logo.BDG .png" alt="logo Blossom Design Group" class="logoBDG"></a>
                 <img src="img/prev_footer.svg" alt="">
                 <img src="img/play_footer.svg" alt="">
                 <img src="img/next_footer.svg" alt="">
+                <a href="https://playground.digitalhouse.com/" target="blank"><img src="img/DH.png" alt="logo Digital House" class="logoBDG" ></a>
             </div>
             <div class="progreso">
                 <span>0:00</span>
                 <div class="barra_progreso"></div>
                 <span>5:00</span>
             </div>
+            <div class="copyright">
+                <ul>
+                    <li><a href="#"></a>Ignacio Aracena</li>
+                    <li><a href="#"></a>Santiago Scilingo</li>
+                    <li><a href="#"></a>Alejo Corti</li>
+                </ul>
+            </div>
         </footer>
 
     </div>
+
+    <!--JAVASCRIPTS-->
 </body>
 
 </html>
