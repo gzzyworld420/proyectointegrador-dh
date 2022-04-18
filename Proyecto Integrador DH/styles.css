@@ -426,57 +426,49 @@ a{
 
 
 /*GENEROS*/
+.container section .contenedor_contenido .titulosection {
+    text-align: start;
+}
+
 .container section .contenedor_contenido .generos .card_generos{
-    transition: var(--efecto);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-basis: calc((100% / 4 ) - 20px);
-    margin: 10px;
+    margin: 5px;
     background-color: #181818;
-    padding: 1em;
+    padding: 5mm;
     cursor: pointer;
     border-radius: var(--radius);
+}
+.container section .contenedor_contenido .generos .card_generos h4 {
+    text-align: center;
 }
 .container section .contenedor_contenido .generos .card_generos:hover{
     background-color: #282828;
 }
-.container section .contenedor_contenido .podcast .card_podcast img{
-    width: 100%;
-    height: 100%;
-}
-.container section .contenedor_contenido .podcast .card_podcast:hover img{
-    box-shadow: 5px 4px 10px hsl(0, 0%, 11%);
-}
-.container section .contenedor_contenido .podcast .card_podcast h4{
-    margin-top: 1em;
-}
 .imggenero {
     height: 180px;
+    border-radius: var(--radius) ;
 }
+
 
 
 /*PLAYLIST*/
 
-.container .contenedor_contenido .titulos{
+.container .contenedor_contenido .tituloplaylist{
     text-align: start;
-    width: 100%;
-    margin-bottom: 20px;
 }
 .container section .contenedor_contenido .playlist{
-    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    flex-grow: 1;
-    margin-bottom: 20px;
+    margin: 10px;
 }
 .container section .contenedor_contenido .playlist .cards{
-    transition: var(--efecto);
-    flex-basis: calc((100% / 3) - 20px);
-    height: 100%;
     display: flex;
-    justify-content: space-between;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
     background-color: #282828;
     cursor: pointer;
     border-radius: var(--radius);
@@ -487,7 +479,7 @@ a{
     height: 80px;
 }
 .container section .contenedor_contenido .playlist .cards .card_imagen img{
-    width: 100%;
+
     height: 100%;
     border-top-left-radius: var(--radius);
     border-bottom-left-radius: var(--radius);
@@ -499,11 +491,13 @@ a{
     padding: 0 20px;
     width: calc(100% - 80px);
 }
+
+
 .container section .contenedor_contenido .playlist .cards .card_text img{
     opacity: 0;
 }
 .container section .contenedor_contenido .playlist .cards:hover{
-    background: linear-gradient(#666666, #474747);
+    background-color: #474747;
 }
 .container section .contenedor_contenido .playlist .cards:hover img{
     opacity: 1;
