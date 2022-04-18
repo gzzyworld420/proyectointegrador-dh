@@ -312,104 +312,111 @@ body{
     margin: 0 1em;
 }
 
-/*Detalles*/
+
+/*DETALLES*/
 
 
-.cajaDetalleAlbum{
-
-    width: 100%;
-    height: 100%;
+.containerDetalles{
+    text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-.imagenJustin{
-    width: 800px;
-    height: 870px;
-    margin-left: 5px;
-}
-
-.tituloJustin{
-    font-size: 100px;
-    color: white;
-    text-decoration: none;
-    font-family: fantasy;
-}
-.nombrealbumjustin{
-    font-family: fantasy;
-    color: white;
-    font-size: 70px;
-    padding-top: 65px;
-}
-
-.rutajustin{
-    color: white;
-    text-decoration: none;
-}
-
-.infoJustin{
-    color: white;
-    text-decoration: none;
-
-}
-
-.imgDetalleArtista{
-
-    width: 455px;
-    height: 578px;
     justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #181818;
+    padding-top: 100px;
+    padding-bottom: 10px;
     
 }
 
-.rutajustin{
-    text-decoration: none;
-    color: white;
-
-}
-
-.cajaDetalleArtista{
-
-        padding-left: 320px;
-        padding-top: 10px;
-        border-top-width: 0px;
-        margin-top: 65px;
-}
-
-.tituloDetalleArtista{
-    text-decoration: none;
-    font-family: fantasy;
-    font-size: 50px;
-}
+/*Detalle Cancion*/
 
 
-.cajaDetalleCancion{
-    padding-right: 400px;
-    padding-top: 115px;
-    padding-left: 100px;
-}
-
-.cajaDetalleCancionHija{
-    padding-bottom: 20px;
-}
-
-.spotifyPerfil{
-    border-radius: 12px;
-    width: 458px;
+.imagenDetalleCancion{
+    height: 280px;
 }
 
 .tituloDetalleCancion{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.tituloDetalleCancion2{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.tituloDetalleCancion3{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+
+.botonPlaylist{
+    background-color: #a19595;
+}
+
+
+/*Detalle Album*/
+
+
+.tituloDetalleAlbum{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+
+.imagenDetalleAlbum{
+    height: 280px;
+}
+
+.subtituloDetalleAlbum{
+    font-size: 35px;
     text-decoration: none;
     color: white;
     font-family: fantasy;
 }
 
-.subtituloDetalleCancion{
+.infoJustin{
     text-decoration: none;
     color: white;
+}
+
+.listaDetalleCanciones{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Detalle Arista*/
+
+.imagenDetalleArtista{
+
+    height: 525px;
+    width: 450px;
+}
+
+.tituloDetalleArtista{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
     font-family: fantasy;
 }
 
+.detalleArtistaCanciones{
+    font-size: 20px;
+}
+
+.detalleArtistaTexto{
+    font-size: 25px;
+}
 
 
 /*GENEROS*/

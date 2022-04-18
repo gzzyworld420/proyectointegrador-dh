@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    
     <title>Document</title>
 </head>
-
 <body>
-
     <div class="container">
+
+        <!--ASIDE-->
         <aside>
             <div class="menu">
                 <a class="active" href="#"><span><img src="img/home.svg" alt=""></span>Inicio</a>
@@ -22,7 +22,10 @@
             </div>
             </nav>
         </aside>
+
         <section>
+
+            <!--HEADER-->
             <header>
                 <div class="botones_prev_next">
                     <span class="btn_prev"><img src="img/prev.svg" alt=""></span>
@@ -42,45 +45,48 @@
             </header>
 
 
-        <main>
-            
+
+
+          
+
+
+
+            <div class="containerDetalles">
+
+
+                <div>
+                    <h1 class="tituloDetalleArtista"> <a href="">Justin Bieber</a></h1>
+                </div>
+               
+
+                <div class="detalleAlbum">
+                    <div class="detalleCancionHijo">
+                        <img class="imagenDetalleArtista" src="./img/justin artista.jpeg" alt="">
+                    </div>
+                    
+                    <p class="detalleArtistaTexto"> Top 5 canciones: </p>
+                    <ul class="detalleArtistaCanciones">
+                        <li> <a class="detalleCancionesRuta" href="./detalle-cancion.html"> STAY </a> </li>
+                        <li> <a class="detalleCancionesRuta" href="./detalle-cancion.html"> Ghost </a> </li>
+                        <li> <a class="detalleCancionesRuta" href="./detalle-cancion.html"> Peaches </a> </li>
+                        <li> <a class="detalleCancionesRuta" href="./detalle-cancion.html"> Love Yourself </a> </li>
+                        <li> <a class="detalleCancionesRuta" href="./detalle-cancion.html"> Stuck With You </a> </li>
+                    </ul>
+                    
+                    <iframe class="spotifyPerfil" style="border-radius:12px"
+                    src="https://open.spotify.com/embed/artist/1uNFoZAHBGtllmzznpCI3s?utm_source=generator&theme=0"
+                    width="50%" height="380" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    
+                </div>
+            </div>
         
 
-            <section class="cajaDetalleArtista">
-
-                <h3 class="tituloDetalleArtista"> <a href="./detail-artist.html">Justin Bieber</a> </h3>
-
-                <div class="detalleArtista">
-
-                    <img class="imgDetalleArtista" src="./img/justin artista.jpeg" alt="">
-
-                </div>
-
-                <div class="divAlbum">
-
-                    <p class="articleAlbum articlesEnlaces"> Top 5 canciones: </p>
-                    <ul class="articleAlbum articlesEnlaces">
-                        <li> <a class="articlesEnlaces" href="./detail-songs.html"> STAY </a> </li>
-                        <li> <a class="articlesEnlaces" href="./detail-songs.html"> Ghost </a> </li>
-                        <li> <a class="articlesEnlaces" href="./detail-songs.html"> Peaches </a> </li>
-                        <li> <a class="articlesEnlaces" href="./detail-songs.html"> Love Yourself </a> </li>
-                        <li> <a class="articlesEnlaces" href="./detail-songs.html"> Stuck With You </a> </li>
-                    </ul>
-                </div>
-
-                <iframe class="spotifyPerfil" style="border-radius:12px"
-                    src="https://open.spotify.com/embed/artist/1uNFoZAHBGtllmzznpCI3s?utm_source=generator&theme=0"
-                    width="100%" height="380" frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-            </section>
+        </section> 
 
 
-        </main>
-
-
+            <!--FOOTER-->
             <footer>
-
                 <div class="controles">
                     <img src="img/prev_footer.svg" alt="">
                     <img src="img/play_footer.svg" alt="">
@@ -92,18 +98,7 @@
                     <span>5:00</span>
                 </div>
             </footer>
-
-
-
-
-
-
-    </div>
-
-
-
-
-
+    
+        </div>
 </body>
-
 </html>
