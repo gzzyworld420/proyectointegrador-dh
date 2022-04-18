@@ -420,28 +420,36 @@ body{
 
 
 /*GENEROS*/
+.container section .contenedor_contenido .titulosection {
+    text-align: start;
+}
+
 .container section .contenedor_contenido .generos .card_generos{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 10px;
+    margin: 5px;
     background-color: #181818;
-    padding: 1em;
+    padding: 5mm;
     cursor: pointer;
     border-radius: var(--radius);
+}
+.container section .contenedor_contenido .generos .card_generos h4 {
+    text-align: center;
 }
 .container section .contenedor_contenido .generos .card_generos:hover{
     background-color: #282828;
 }
 .imggenero {
     height: 180px;
+    border-radius: var(--radius) ;
 }
 
 
 
 /*PLAYLIST*/
 
-.container .contenedor_contenido .titulos{
+.container .contenedor_contenido .tituloplaylist{
     text-align: start;
 }
 .container section .contenedor_contenido .playlist{
@@ -472,8 +480,10 @@ body{
 }
 .container section .contenedor_contenido .playlist .cards .card_text{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-   
+    padding: 0 20px;
+    width: calc(100% - 80px);
 }
 
 
