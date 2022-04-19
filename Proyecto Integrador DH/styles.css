@@ -250,9 +250,7 @@ width: 250px;
     padding: 0 20px;
     width: calc(100% - 80px);
 }
-.container section .contenedor_contenido .generos .cards .card_text img{
-    opacity: 0;
-}
+
 .container section .contenedor_contenido .generos .cards:hover{
     background: linear-gradient(#666666, #474747);
 }
