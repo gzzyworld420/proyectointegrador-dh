@@ -504,7 +504,7 @@ a{
     flex-flow: row wrap;
     justify-content: center;
     margin: 10px;
-    margin-bottom: 15px;
+    padding-bottom: 25px;
 }
 .container section .contenedor_contenido .playlist .cards{
     display: flex;
