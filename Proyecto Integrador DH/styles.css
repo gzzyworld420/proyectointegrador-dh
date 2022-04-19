@@ -293,7 +293,7 @@ audio{
     box-shadow: 5px 4px 10px hsl(0, 0%, 11%);
 }
 .container section .contenedor_contenido .podcast .card_podcast h4{
-    margin-top: 1em;
+    margin-top: 5px;
 }
 
 /*FOOTER*/
@@ -312,10 +312,10 @@ audio{
     display: flex;
     align-items: center;
     margin: auto;
-    padding-bottom: .5em;
+    padding-bottom: 7px;
 }
 .container footer .controles img{
-    margin: 0 .5em;
+    margin: 0 6px;
 }
 .container footer .progreso{
     display: flex;
@@ -327,7 +327,7 @@ audio{
     height: 5px;
     background-color: #282828;
     border-radius: var(--radius);
-    margin: 0 1em;
+    margin: 0 6px;
 }
 
 .logoBDG{
