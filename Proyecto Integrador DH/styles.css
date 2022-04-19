@@ -203,10 +203,7 @@ width: 250px;
     height: 48px;
     background-repeat: no-repeat;
 }
-.container section .contenedor_degradado .banner .cancion figure:hover{
-    width: 100%;
-    transform: scale(1.2);
-}
+
 /*CONTAINER ARTISTAS PRINCIPALES*/
 .container .contenedor_contenido .titulos{
     text-align: start;
