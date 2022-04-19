@@ -42,7 +42,7 @@ body{
 
 .container aside .menu a{
     text-decoration: none;
-    padding: 10px 1rem;
+    padding: 10px 6px;
     color: #c5c5c5;
     font-weight: bold;
     display: flex;
@@ -71,7 +71,7 @@ body{
     color: #ffffff;
     background-color: var(--fondo);
     overflow-y: scroll;
-    padding-bottom: 5rem;
+    padding-bottom: 15px;
 }
 
 
@@ -79,6 +79,7 @@ body{
 .formbusqueda{
 margin-right: 650px;
 }
+
 .container section header{
     display: flex;
     justify-content: space-between;
@@ -109,7 +110,7 @@ margin-right: 650px;
     align-items: center;
     background-color: #000000;
     width: auto;
-    padding: .4em 5px;
+    padding: 6px 5px;
     border-radius: 30px;
     cursor: pointer;
     z-index: 2;
@@ -165,7 +166,7 @@ margin-right: 650px;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    margin: 1em;
+    margin: 15px;
     width: 200px;
     height: 200px;
     cursor: pointer;
@@ -277,7 +278,7 @@ audio{
     flex-basis: calc((100% / 4 ) - 20px);
     margin: 10px;
     background-color: #181818;
-    padding: 1em;
+    padding: var(--padding);
     cursor: pointer;
     border-radius: var(--radius);
 }
