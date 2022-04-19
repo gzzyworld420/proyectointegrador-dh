@@ -42,7 +42,7 @@ body{
 
 .container aside .menu a{
     text-decoration: none;
-    padding: 10px 6px;
+    padding: 10px 1rem;
     color: #c5c5c5;
     font-weight: bold;
     display: flex;
@@ -71,7 +71,7 @@ body{
     color: #ffffff;
     background-color: var(--fondo);
     overflow-y: scroll;
-    padding-bottom: 15px;
+    padding-bottom: 5rem;
 }
 
 
@@ -79,7 +79,6 @@ body{
 .formbusqueda{
 margin-right: 650px;
 }
-
 .container section header{
     display: flex;
     justify-content: space-between;
@@ -110,7 +109,7 @@ margin-right: 650px;
     align-items: center;
     background-color: #000000;
     width: auto;
-    padding: 6px 5px;
+    padding: .4em 5px;
     border-radius: 30px;
     cursor: pointer;
     z-index: 2;
@@ -138,7 +137,9 @@ margin-right: 650px;
     background-color: white;
     width: 20px;
 }
-
+.imgGM{
+width: 250px;
+}
 /*CONTAINER BANNER PRINCIPAL*/
 .container section .contenedor_degradado, .container section .contenedor_contenido{
     padding: var(--padding);
@@ -154,7 +155,6 @@ margin-right: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     background-image: url(img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,11 +166,10 @@ margin-right: 650px;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    margin: 15px;
+    margin: 1em;
     width: 200px;
     height: 200px;
     cursor: pointer;
-    flex-wrap: wrap;
 }
 .container section .contenedor_degradado .banner .cancion figure{
     position: relative;
@@ -278,7 +277,7 @@ audio{
     flex-basis: calc((100% / 4 ) - 20px);
     margin: 10px;
     background-color: #181818;
-    padding: var(--padding);
+    padding: 1em;
     cursor: pointer;
     border-radius: var(--radius);
 }
@@ -293,7 +292,7 @@ audio{
     box-shadow: 5px 4px 10px hsl(0, 0%, 11%);
 }
 .container section .contenedor_contenido .podcast .card_podcast h4{
-    margin-top: 5px;
+    margin-top: 1em;
 }
 
 /*FOOTER*/
@@ -312,10 +311,10 @@ audio{
     display: flex;
     align-items: center;
     margin: auto;
-    padding-bottom: 7px;
+    padding-bottom: .5em;
 }
 .container footer .controles img{
-    margin: 0 6px;
+    margin: 0 .5em;
 }
 .container footer .progreso{
     display: flex;
@@ -327,7 +326,7 @@ audio{
     height: 5px;
     background-color: #282828;
     border-radius: var(--radius);
-    margin: 0 6px;
+    margin: 0 1em;
 }
 
 .logoBDG{
@@ -346,11 +345,6 @@ audio{
     padding: var(--padding);
     font-size: 15px bold;
 }
-
-
-
-
-
 
 /*DETALLES*/
 
