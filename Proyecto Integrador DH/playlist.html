@@ -18,13 +18,15 @@
         <!--ASIDE-->
         <aside>
             <div class="menu">
-                <a class="active" href="#"><span><img src="img/home.svg" alt=""></span>Inicio</a>
-                <a href="#"><span><img src="img/search.svg" alt=""></span>Buscar</a>
-                <a href="#"><span><img src="img/library.svg" alt=""></span>Tu biblioteca</a> <br>
-                <a href="#"><span><img src="img/add.svg" alt=""></span>Crear lista</a>
-                <a href="#"><span><img src="img/heart.svg" alt=""></span>Canciones que te gustan</a>
+                <a class="active" href="index.html"><span><img src="img/home.svg" alt="icono home"></span>Inicio</a>
+                <a href="./search-results.html"><span><img src="img/search.svg" alt="icono buscar"></span>Buscar</a>
+                <a href="./detalle-album.html"><span><img src="img/record-vinyl-solid.svg" alt="icono records" class="imgAside"></span>Albums</a>
+                <a href="./detalle-artista.html"><span><img src="img/person-solid.svg" alt="icono artista" class="imgAside"></span>Artistas</a>
+                <a href="./generos.html"><span><img src="img/sliders-solid.svg" alt="icono slider" class="imgAside"></span>Generos</a>
+                <a href="./playlist.html"><span><img src="img/heart.svg" alt="icono me gusta"></span>Playlist</a>
+                <img src="./img/WhatsApp Image 2022-04-17 at 9.57.36 PM (1).jpeg" alt="logo global music">
             </div>
-            </nav>
+            
         </aside>
 
         <section>
@@ -35,31 +37,41 @@
                     <span class="btn_prev"><img src="img/prev.svg" alt=""></span>
                     <span class="btn_next"><img src="img/next.svg" alt=""></span>
                 </div>
+                <div class="formbusqueda">
+                    <form action="search-results.html" method="get">
 
+                        <div class="divbusqueda">
+                            <input type="busqueda" name="busqueda" placeholder="Artists, songs or podcast">
+                            <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+
+                    </form>
+                </div>
                 <div class="suscribcion">
-                    <div class="mejora_cuenta">
-                        <button>MEJORAR TU CUENTA</button>
-                    </div>
                     <div class="perfil">
-                        <span class="circulo"><img src="img/user.svg" alt=""></span>
-                        <span class="nombre">Usuario</span>
-                        <span><img src="img/salir.svg" alt=""></span>
+                        <span class="circulo"><img src="img/gzzy.jpg" alt="imagen perfil" class="imgSuscripcion"></span>
+                        <span class="nombre">Gzzy</span>
+                        <span><img src="img/salir.svg" alt="icono salir"></span>
                     </div>
                 </div>
+
             </header>
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
-            <div >
-                <div >
-                   <h1>Playlist</h1>
-                </div>
-            </div>
 
 
             <div class="contenedor_contenido">
                 <div class="tituloplaylist">
                     <h1>Playlist <i class="fa-solid fa-headphones-simple"></i> </i></h1>
-            
+            <br>
+            <br>
+            <br>
+
                     <h2>Canciones que te gustaron <i class="fa-solid fa-heart"></i></h2>
                 </div>
                 <div class="playlist">
@@ -68,7 +80,6 @@
                         <div class="card_text">
                             <h4>JIJIJI</h4>
                             <h6>Patricio Rey</h6>
-                            <img src="img/play.svg" alt="">
                         </div>
                     </div>
                     <div class="cards">
@@ -76,7 +87,6 @@
                         <div class="card_text">
                             <h4>PUENTE</h4>
                             <h6>Ceratti</h6>
-                            <img src="img/play.svg" alt="">
                         </div>
                     </div>
                     <div class="cards">
@@ -84,7 +94,6 @@
                         <div class="card_text">
                             <h4>NOCHE</h4>
                             <h6>Charly</h6>
-                            <img src="img/play.svg" alt="">
                         </div>
                     </div>
                     <div class="cards">
@@ -92,7 +101,6 @@
                         <div class="card_text">
                             <h4>Y QUE?</h4>
                             <h6>Babasonicos</h6>
-                            <img src="img/play.svg" alt="">
                         </div>
                     </div>
 
@@ -101,15 +109,6 @@
                         <div class="card_text">
                             <h4>ALMA DINAMITA</h4>
                             <h6>WOS</h6>
-                            <img src="img/play.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card_imagen"><img src="img/marki.jpg" alt=""></div>
-                        <div class="card_text">
-                            <h4>MUSIKA DEL CIELO</h4>
-                            <h6>Marki</h6>
-                            <img src="img/play.svg" alt="">
                         </div>
                     </div>
                     <div class="cards">
@@ -117,7 +116,7 @@
                         <div class="card_text">
                             <h4>UNA VELA</h4>
                             <h6>Intoxicados</h6>
-                            <img src="img/play.svg" alt="">
+                            
                         </div>
                     </div>
                     <div class="cards">
@@ -125,7 +124,7 @@
                         <div class="card_text">
                             <h4>PENSAR</h4>
                             <h6>Airbag</h6>
-                            <img src="img/play.svg" alt="">
+                            
                         </div>
                     </div>
                     <div class="cards">
@@ -133,7 +132,7 @@
                         <div class="card_text">
                             <h4>DESCONFIO</h4>
                             <h6>Pappo</h6>
-                            <img src="img/play.svg" alt="">
+                            
                         </div>
                     </div>
                     <div class="cards">
@@ -141,24 +140,27 @@
                         <div class="card_text">
                             <h4>11 Y 6</h4>
                             <h6>Fito Paez</h6>
-                            <img src="img/play.svg" alt="">
+                            
                         </div>
                     </div>
                 </div>
 
+                <br>
+            <br>
+            <br>
                 
                 <div class="titulos">
                     <h2>DESCUBRE COSAS NUEVAS</h2>
                     <span>Creemos que tambien podria interesarte <i class="fa-solid fa-compact-disc"></i></span>
                 </div>
-                
+            
                     <div class="playlist">
                         <div class="cards">
                             <div class="card_imagen"><img src="img/mirenla.jpg" alt=""></div>
                             <div class="card_text">
                                 <h4>MIRENLA</h4>
                                 <h6>Ciro</h6>
-                                <img src="img/play.svg" alt="">
+                               
                             </div>
                             
                         </div>
@@ -167,23 +169,15 @@
                             <div class="card_text">
                                 <h4>HOMERO</h4>
                                 <h6>Viejas locas</h6>
-                                <img src="img/play.svg" alt="">
+                               
                             </div>
                         </div>
                         <div class="cards">
-                            <div class="card_imagen"><img src="img/todo pasa.jpg" alt=""></div>
-                            <div class="card_text">
-                                <h4>TODO PASA</h4>
-                                <h6>Los Piojos</h6>
-                                <img src="img/play.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="cards">
-                            <div class="card_imagen"><img src="img/wos-caravana-1200x1200.webp" alt=""></div>
+                            <div class="card_imagen"><img src="img/tres-puntos-suspensivos.jpg" alt=""></div>
                             <div class="card_text">
                                 <h4>OKUPA</h4>
                                 <h6>WOS</h6>
-                                <img src="img/play.svg" alt="">
+                                
                             </div>
                         </div>
                
@@ -205,6 +199,7 @@
                 <span>5:00</span>
             </div>
         </footer>
+
 
     </div>
 </body>
