@@ -534,15 +534,4 @@ a{
 }
 
 
-.container section .contenedor_contenido .playlist .cards .card_text img{
-    opacity: 0;
-}
-.container section .contenedor_contenido .playlist .cards:hover{
-    background-color: #474747;
-}
-.container section .contenedor_contenido .playlist .cards:hover img{
-    opacity: 1;
-    transition: var(--efecto);
-}
-
 
