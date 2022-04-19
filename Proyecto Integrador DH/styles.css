@@ -438,6 +438,7 @@ a{
 .listaDetalleCanciones{
     text-decoration: none;
     color: white;
+    list-style-type: none;
 }
 
 
