@@ -231,6 +231,7 @@ margin-right: 650px;
     justify-content: center;
     flex-grow: 1;
     margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 .container section .contenedor_contenido .generos .cards{
     transition: var(--efecto);
