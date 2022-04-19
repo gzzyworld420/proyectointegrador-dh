@@ -272,7 +272,7 @@ audio{
     flex-basis: calc((100% / 4 ) - 20px);
     margin: 10px;
     background-color: #181818;
-    padding: 1em;
+    padding: 15px;
     cursor: pointer;
     border-radius: var(--radius);
 }
@@ -283,11 +283,9 @@ audio{
     width: 100%;
     height: 100%;
 }
-.container section .contenedor_contenido .podcast .card_podcast:hover img{
-    box-shadow: 5px 4px 10px hsl(0, 0%, 11%);
-}
+
 .container section .contenedor_contenido .podcast .card_podcast h4{
-    margin-top: 1em;
+    margin-top: 20px;
 }
 
 /*FOOTER*/
@@ -306,10 +304,10 @@ audio{
     display: flex;
     align-items: center;
     margin: auto;
-    padding-bottom: .5em;
+    padding-bottom: 10px;
 }
 .container footer .controles img{
-    margin: 0 .5em;
+    margin: 0 9px;
 }
 .container footer .progreso{
     display: flex;
@@ -321,7 +319,7 @@ audio{
     height: 5px;
     background-color: #282828;
     border-radius: var(--radius);
-    margin: 0 1em;
+    margin: 0 16px;
 }
 
 .logoBDG{
