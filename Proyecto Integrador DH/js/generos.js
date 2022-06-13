@@ -10,7 +10,8 @@ fetch('  https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
   for (i=0; i<data.results; i++){
     geneross=data.results[i];
     doc.innerHTML+=
-     `<p>${data.name}<p/>`;
+     `<p>${geneross.name}<p/>`
+     `<img src=${geneross.picture} alt='' />`;
   }
 })
 .catch(function(error) {
