@@ -481,6 +481,7 @@ a{
     cursor: pointer;
     border-radius: var(--radius);
 }
+
 .container section .contenedor_contenido .generos .card_generos h4 {
     text-align: center;
 }
