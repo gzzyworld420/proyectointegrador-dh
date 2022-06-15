@@ -14,10 +14,18 @@ fetch('  https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
      `<p>${geneross.name}<p/>
      <img src=${geneross.picture} alt='' />`;
   }
-  /* section */
-  doc.style.display = 'flex';
-  doc.style.justifyContent = 'space-between';
-  doc.style.flexWrap = 'wrap'
+ let name = document.querySelector(".opa");
+ name.style.color= "white";
+ name.style.fontSize= "20px";
+ name.style.textAlign= "center";
+ 
+
+ document.querySelector("h2").innerText="GENEROS";
+
+ 
+
+
+
 })
 .catch(function(error) {
   console.log("Error: " + error);
