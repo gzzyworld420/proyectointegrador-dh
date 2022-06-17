@@ -14,15 +14,21 @@ fetch('  https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
      `<a href="./detail-genres.html?id=${geneross.id}"><p>${geneross.name}<p/>
      <img src=${geneross.picture} alt='' /></a>`;
   }
- let name = document.querySelector(".opa");
- name.style.color= "white";
- name.style.fontSize= "20px";
- name.style.textAlign= "center";
- name.style.backgroundColor="black";
+ let mod = document.querySelector(".opa");
+ mod.style.fontSize= "20px";
+ mod.style.textAlign= "center";
+ mod.style.backgroundColor="black";
+ mod.style.width= "500px";
+ mod.style.marginLeft= "250px";
+ mod.style.marginTop= "50px";
+ 
+ 
+ 
 
-let picture = document.querySelector(".opa");
 
 
+let title = document.querySelector(".titulosection");
+title.style.fontSize= "40px";
  document.querySelector("h2").innerText="GENEROS";
 
  
