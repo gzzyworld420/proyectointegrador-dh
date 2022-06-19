@@ -1,3 +1,4 @@
+
 let doc = document.querySelector(".opa");
 let geneross    ;
 let a
@@ -11,9 +12,12 @@ fetch('  https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
     geneross=data.data[i];
     console.log(geneross);
     doc.innerHTML+=
-     `<a href="./detail-genres.html?id=${geneross.id}"><p>${geneross.name}<p/>
-     <img src=${geneross.picture} alt='' /></a>`;
+     `<a href="./detail-genres.html?id=${geneross.id}">
+     <p>${geneross.name}<p/>
+     <img src=${geneross.picture} alt='' />
+     </a>`;
   }
+  
  let mod = document.querySelector(".opa");
  mod.style.fontSize= "20px";
  mod.style.textAlign= "center";
