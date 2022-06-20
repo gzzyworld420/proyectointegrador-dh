@@ -375,7 +375,7 @@ a{
 }
 
 .tituloDetalleCancion2{
-    font-size: 30px;
+    font-size: 29px;
     color: white;
     text-decoration: none;
     font-family: fantasy;
@@ -393,38 +393,69 @@ a{
     background-color: #a19595;
 }
 
-
-/*Detalle Album*/
-
-
-.tituloDetalleAlbum{
-    font-size: 50px;
-    color: white;
+.search{
+    display:none;
+}
+a:link {
     text-decoration: none;
-    font-family: fantasy;
 }
 
-
-.imagenDetalleAlbum{
-    height: 280px;
+.headtrack{
+    font-size: large;
+}
+.audiotrack{
+    width: 270px;
+}
+.divtrack{
+    margin:auto;
+    width:320px;
+    padding:10px;
+}
+.divtrackhijo{
+    text-align: center;
 }
 
-.subtituloDetalleAlbum{
-    font-size: 35px;
-    text-decoration: none;
-    color: white;
-    font-family: fantasy;
+.divplayer{
+    display: flex;
+    justify-content:space-evenly;
+    
 }
 
-.infoJustin{
-    text-decoration: none;
-    color: white;
+/*Detalle de album*/
+#detail-album .banner img{
+    display: block;
+    width:255px;
+    margin-left: auto;
+    margin-right: auto;    
 }
-
-.listaDetalleCanciones{
-    text-decoration: none;
-    color: white;
-    list-style-type: none;
+#detail-album .info-jb{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+#detail-album #album{
+    margin-left: 10%;
+}
+#detail-album .portada{
+    margin-bottom: 4%;
+}
+#detail-album div{
+    display: flex;
+}
+#detail-album  div figure img{
+    width: 40px;
+    border-radius:50%;
+}
+#artista{
+    margin-top: 15%;
+}
+#detail-album .info-jb h1{
+    margin-bottom: 94%; 
+}
+#detail-album h6{
+    color: rgb(128, 123, 123);
+    padding-top: 0%;
+    margin-left: 10%;
 }
 
 
