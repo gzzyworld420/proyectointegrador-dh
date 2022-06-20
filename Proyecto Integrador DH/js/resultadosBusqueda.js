@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
   setTimeout( function (){
     esconder.style.display = 'block'
     animacionDeCarga.style.display = 'none'
-    if (artistas.style.display == 'none'&&albums.style.display == 'none'&&canciones.style.display == 'none') {
+    if (artistas.style.display == 'none' && albums.style.display == 'none' && canciones.style.display == 'none') {
       noData.style.display = 'block'
     }
 }, 5000);
@@ -34,7 +34,7 @@ noData.style.display = 'none'
     }
     else{
       for (let i = 0; i < 5; i++) {
-        canciones.innerHTML += `<a href="./detalleCanciones.html?id=${data.data[i].id}"><p>${data.data[i].title}</p></a>`  
+        canciones.innerHTML += `<a href="./detalle-canciones.html?id=${data.data[i].id}"><p>${data.data[i].title}</p></a>`  
     }
     }
     
@@ -54,7 +54,7 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/album?q
     }
     else{
       for (let i = 0; i < 5; i++) {
-        albums.innerHTML += `<a href="./detalleAlbum.html?id=${data.data[i].id}"><p>${data.data[i].title}</p></a>`  
+        albums.innerHTML += `<a href="./detalle-album.html?id=${data.data[i].id}"><p>${data.data[i].title}</p></a>`  
       }
     }
     
@@ -74,7 +74,7 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?
   }
   else{
     for (let i = 0; i < 5; i++) {
-      artistas.innerHTML += `<a href="./detalleArtista.html?id=${data.data[i].id}"><p>${data.data[i].name}</p></a>`  
+      artistas.innerHTML += `<a href="./detalle-artista.html?id=${data.data[i].id}"><p>${data.data[i].name}</p></a>`  
   }
   }
   
@@ -82,17 +82,6 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?
 .catch(function(error) {
   console.log("Error: " + error);
 })
-
-
-
-
-
-
-
-
-
-
-
 
 // js para el formulario 
 

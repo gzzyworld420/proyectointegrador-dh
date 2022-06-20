@@ -1,7 +1,8 @@
 let recuperoStorage = localStorage.getItem('favoritos');
 let favoritos = JSON.parse(recuperoStorage);
 
-/*capturar el elemento en el dom*/;
+/*capturar el elemento en el dom*/
+;
 
 let section = document.querySelector('.lista');
 
@@ -17,15 +18,15 @@ if (favoritos == null || favoritos.length == 0) {
 
     for (let i = 0; i < favoritos.length; i++) {
         /*recorro el array*/
-        const URL =  `https://api.deezer.com/track/${favoritos[i]}`;   
-        
+        const URL = `https://api.deezer.com/track/${favoritos[i]}`;
+
         fetch(URL)
-        /*declaro variable URL*/
-            .then(function(response) {
+            /*declaro variable URL*/
+            .then(function (response) {
                 return response.json();
             })
-            .then(function(data) {
-              temasFavoritos += `<article class="lista">
+            .then(function (data) {
+                temasFavoritos += `<article class="lista">
                 <a href="./detalle-album.html?id=${data.album.id}">
                    <img class="img-generos" src="${data.album.cover_big}"/>
                 </a>
@@ -44,17 +45,10 @@ if (favoritos == null || favoritos.length == 0) {
                
                <iframe src=${data.preview} frameborder="0"></iframe>
                </article>`
-       
-            section.innerHTML = temasFavoritos;
 
-           
+                section.innerHTML = temasFavoritos;
 
-           
-           
-            
-
-
-            }).catch(function(error) {
+            }).catch(function (error) {
                 console.log(error);
             })
     }
