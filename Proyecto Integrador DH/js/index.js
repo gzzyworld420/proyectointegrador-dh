@@ -27,14 +27,15 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart')
             let id = data.tracks.data[i].id;
 
             listaCanciones.innerHTML += 
-            ` <li class="article">
-            <p>
-                <a href="./detalleCanciones.html?id=${id}">${titulo}</a> by <a href="./detalleArtista.html?id=${data.tracks.data[i].artist.id}">${nombreArtista}</a>
-            </p>
-            <a href="./detalleCanciones.html?id=${id}" class='aParaResponsive'> <img src="${imagenes}" alt='' class='picture'></a>
-        </li>`;
-        }
+            `<div class="canciones">
+            <a href="./detalleCancion.html?id=${id}">
+            <img class="imagenesCanciones" src="${imagenes}" alt="">
+            <p class="pSection">${titulo}</p>
+            <p class="pSection">${artista}</p>
+            </a>
+            </div>`;
 
+        }
 
         // Seccion artistas
         // Se obtiene la informacion de los artistas y se muestra en el html

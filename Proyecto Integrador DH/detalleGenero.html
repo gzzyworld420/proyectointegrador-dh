@@ -21,6 +21,7 @@
         <!--SIDE BAR-->
         <aside>
             <div class="menu">
+                <a href="#" class="toggle"></a>
                 <a class="active" href="./index.html"><span><img src="img/home.svg" alt="icono home"></span>Inicio</a>
                 <a href="./search-results.html"><span><img src="img/search.svg" alt="icono buscar"></span>Buscar</a>
                 <a href="./detalle-album.html"><span><img src="img/record-vinyl-solid.svg" alt="icono records"
@@ -46,7 +47,8 @@
                 <div class="formbusqueda">
                     <form action="search-results.html" method="get" class="header">
                         <div class="divbusqueda">
-                            <input type="busqueda" name="busqueda" placeholder="Artists, songs or podcast" class="campo">
+                            <input type="busqueda" name="busqueda" placeholder="Artists, songs or podcast"
+                                class="campo">
                             <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
                     </form>
@@ -62,29 +64,16 @@
                 </div>
             </header>
 
-            <!--CONTENT-->
-            <main>
-                <br>
-                <br>
-                <br>
+            <!--CONTENIDO-->
+            <main class="mainDetalleGeneros">
 
-                <h2 class="homeH2">ARTISTAS</h2>
-                <ul class="lisArtistas lisStyle">
-                <br>
-                <br>
-                <br>
-                </ul>
+                <section class="detalleGeneros">
 
-                <h2 class="homeH2">ALBUMES</h2>
-                <ul class="lisAlbums lisStyle">
-                <br>
-                <br>
-                <br>
-                </ul>
 
-                <h2 class="homeH2">CANCIONES</h2>
-                <ul class="lisCanciones lisStyle">
-                </ul>
+
+                </section>
+
+
 
             </main>
 
@@ -116,7 +105,7 @@
     </div>
 
     <!--JAVASCRIPTS-->
-    <script src="./js/index.js"></script>
+    <script src="./js/detalleGenero.js"></script>
 </body>
 
 </html>
