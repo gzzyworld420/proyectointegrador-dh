@@ -15,7 +15,7 @@ fetch('  https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
     doc.innerHTML+=
     /*mediante innerHTML reemplazo la estructura interna del div .opa*/
     /*mediante un a creo una ruta para ver el detalle del genero*/
-     `<a href="./detalle-cancion.html?id=${geneross.id}">
+     `<a href="./detalleGenero.html?id=${geneross.id}">
      <p>${geneross.name}<p/>
      <img src=${geneross.picture} alt='' />
      </a>`;
