@@ -1,7 +1,7 @@
 let locationQs = location.search
 let workQs = new URLSearchParams(locationQs)
 let capturarID = workQs.get('id')
-console.log(capturarID);
+// console.log(capturarID);
 let secGenero = document.querySelector('.detalleGeneros')
 
 const url = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/${capturarID}` // de aca sacas el genero
