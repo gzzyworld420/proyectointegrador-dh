@@ -604,5 +604,13 @@ a:link {
 
 
 
+.titulo {
+font-size: 80px;
+margin-left: 20px;
+}
 
+.lista {
+    margin-left: 50px;
+    font-size: 20px;
 
+}
