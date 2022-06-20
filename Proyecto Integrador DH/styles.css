@@ -296,6 +296,7 @@ audio{
     flex-direction: column;
     width: 100%;
     bottom: 0;
+    position: fixed;
     padding: var(--padding);
     border-top: 1px solid #282828;
     color: #ffffff;
@@ -533,9 +534,9 @@ a:link {
     display: flex;
     padding-bottom: 40px;
     gap: 2.3em;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-left: 150px;
-    padding-right: 100;
+    padding-bottom: 70px;
 }
 
 
