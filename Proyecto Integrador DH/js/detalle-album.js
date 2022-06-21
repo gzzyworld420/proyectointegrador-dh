@@ -1,5 +1,3 @@
-window.addEventListener("load", function(){
-
     let canciones= document.querySelector(".canciones");
     let imgAlbum=document.querySelector(".banner img");
     let imgArtista= document.querySelector(".info-jb figure img");
@@ -69,9 +67,4 @@ window.addEventListener("load", function(){
     .then(function(response){
     console.log(response)
     return response.json
-    })
-    
-    
-    
-    
     })

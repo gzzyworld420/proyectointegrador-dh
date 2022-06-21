@@ -1,11 +1,4 @@
-// CARGAR PAGINA ANTES DE TODO
-window.addEventListener("load", function () {
-
-    console.log(window);
-    console.log(location);
-    console.log(location.search);
-  
-    //QUERYSTRING
+     //QUERYSTRING
     let queryString = location.search;
     let queryStringObj = new URLSearchParams(queryString);//modelo de obj en js
     let busqueda = queryStringObj.get('id');
@@ -70,4 +63,3 @@ window.addEventListener("load", function () {
       .catch(function(error){
         console.log(error);
       })
-  })

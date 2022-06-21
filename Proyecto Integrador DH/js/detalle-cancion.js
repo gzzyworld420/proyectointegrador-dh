@@ -1,6 +1,3 @@
-window.addEventListener("load", function () {
-
-    console.log(window.location.search);
 
     let queryString = location.search;
     let queryStringObj = new URLSearchParams(queryString);
@@ -79,7 +76,3 @@ if (listaFavoritos.includes(busqueda)){
     localStorage.setItem('favoritos', trackAStorage);
     console.log(localStorage);
 })
-
-
-
-});
