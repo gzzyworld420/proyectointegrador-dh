@@ -41,8 +41,8 @@ window.addEventListener("load", function () {
         console.log(error);
       })
   
-    //SEGUNDO FETCH PARA BUSCAR ALBUMES POR ARTISTA
-    fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${busqueda}/albums`)
+    //SEGUNDO FETCH
+    fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${busqueda}/top?limit=5`)
       .then(function (response) {
         console.log(response);
         return response.json()
@@ -51,15 +51,15 @@ window.addEventListener("load", function () {
         console.log(datos);
         //PREPARO BUCLE
         for (let i = 0; i < 5; i++) {
-          let albumID= datos.data[i].id
-          let albumTitle = datos.data[i].title;
-          let albumCover = datos.data[i].cover;
-          let albumId = datos.data[i].id;
+          let ID= datos.data[i].id
+          let songTitle = datos.data[i].title;
+          let songCover = datos.data[i].cover;
+          let songId = datos.data[i].id;
           albumes.innerHTML += `
         <article class="track">
-        <a href="./detalle-album.html?id=${albumId}"><img src="${albumCover}" alt="${albumTitle}"></a>
+        <a href="./detalle-album.html?id=${songId}"><img src="${songCover}" alt="${songTitle}"></a>
         <div>
-        <a href="detalle-album.html?id=${albumID}"><h2>${albumTitle}</h2></a>
+        <a href="detalle-album.html?id=${songID}"><h2>${songTitle}</h2></a>
         </div>
     
         </article>
