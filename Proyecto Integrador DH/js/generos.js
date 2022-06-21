@@ -2,13 +2,14 @@ let doc = document.querySelector(".opa");
 /*creo variable doc para alacenar el div opa*/ 
 let geneross;
 fetch('  https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
+
 /*utilizo fetch para obtener datos del endpoint que nos provee su API*/
 .then(function(response) {
   return response.json()
 })
 .then(function(data) {
   console.log(data);
-  for (i=1; i<data.data.length; i++){
+  for (i=0; i<data.data.length; i++){
     /*utilizo un bucle for para recorrer el array, utilizo la prop length para que retorne el numero de elementos que contiene el array*/
     geneross=data.data[i];
     console.log(geneross);
@@ -45,4 +46,19 @@ title.style.fontSize= "40px";
 })
 .catch(function(error) {
   console.log("Error: " + error);
+})
+
+// js para el formulario 
+
+let formulario = document.querySelector('form.header')
+let campo = document.querySelector('.campo')
+formulario.addEventListener('submit', function (e) {
+ e.preventDefault()
+ if(campo.value == ''){
+    alert('el campo esta vacio')
+ } else if (campo.value.length<3){
+    alert('el termino buscado debe tener al menos tres caracteres')
+ }else{
+    this.submit()
+ }
 })
