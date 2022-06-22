@@ -64,6 +64,8 @@ fetch(url) // traes todos los generos
 
 
 
+
+
 // js para el formulario 
 
 let formulario = document.querySelector('form.header')

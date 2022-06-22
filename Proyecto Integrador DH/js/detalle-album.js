@@ -68,3 +68,17 @@
     console.log(response)
     return response.json
     })
+// Formulario 
+
+let formulario = document.querySelector('form.header')
+let campo = document.querySelector('.campo')
+formulario.addEventListener('submit', function (e) {
+    e.preventDefault()
+    if (campo.value == '') {
+        alert('Hola, el campo esta vacio')
+    } else if (campo.value.length < 3) {
+        alert('Hola, el termino buscado debe tener al menos tres caracteres')
+    } else {
+        this.submit()
+    }
+}) // fin formulario
