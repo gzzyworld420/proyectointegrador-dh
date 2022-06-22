@@ -68,7 +68,7 @@
     console.log(response)
     return response.json
     })
-// Formulario 
+// Formulario de busqueda
 
 let formulario = document.querySelector('form.header')
 let campo = document.querySelector('.campo')

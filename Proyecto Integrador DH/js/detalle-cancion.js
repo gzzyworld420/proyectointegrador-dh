@@ -77,7 +77,7 @@ if (listaFavoritos.includes(busqueda)){
     console.log(localStorage);
 })
 
-// Formulario 
+// Formulario de busqueda
 
 let formulario = document.querySelector('form.header')
 let campo = document.querySelector('.campo')

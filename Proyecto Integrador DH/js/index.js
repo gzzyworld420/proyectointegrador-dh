@@ -20,7 +20,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart')
 
         // Seccion canciones
         // Se obtiene la informacion de las canciones y se muestra en el html
-        for (let i = 5; i < 10; i++) {
+        for (let i = 0; i < 5; i++) {
             let titulo = data.tracks.data[i].title;
             let artista = data.tracks.data[i].artist.name;
             let imagenes = data.tracks.data[i].artist.picture_medium;

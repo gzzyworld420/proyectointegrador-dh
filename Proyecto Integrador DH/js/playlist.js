@@ -54,7 +54,7 @@ if (favoritos == null || favoritos.length == 0) {
     }
 }
 
-// js para el formulario 
+// Formulario de Busqueda
 
 let formulario = document.querySelector('form.header')
 let campo = document.querySelector('.campo')
